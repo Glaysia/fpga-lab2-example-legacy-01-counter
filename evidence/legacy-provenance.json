@@ -1,0 +1,21 @@
+{
+  "files": [
+    {
+      "file": "original/top.v",
+      "source": "legacy/notebook/cpp/verilog/W5/16_Counter/src/top.v",
+      "sha256": "59473994c346d88c7938909715f2fac6d97344d2a53ff0431253a9322616dbd6"
+    },
+    {
+      "file": "original/tb.v",
+      "source": "legacy/notebook/cpp/verilog/W5/16_Counter/src/tb.v",
+      "sha256": "eb2dd66c9b7c0d4b4b1a07955de17a4be4e17805e6b72d6555af4b824843a5ed"
+    },
+    {
+      "file": "original/pin.xdc",
+      "source": "legacy/notebook/cpp/verilog/W5/16_Counter/src/pin.xdc",
+      "sha256": "c32894d16d9ff0b475d0a6f2182fdd21fc430bd6617e53504acf30ee7a68703c"
+    }
+  ],
+  "differences": "원본 updn=1은 증가다. 현재 core의 down=1은 감소다. 원본은 비동기 리셋과 blocking 할당을 사용하며 현재 회로는 동기 리셋·enable·nonblocking을 사용한다.",
+  "execution_files": "src/, sim/, constraints/ are the corrected single-clock lesson; original/ is preserved for comparison"
+}

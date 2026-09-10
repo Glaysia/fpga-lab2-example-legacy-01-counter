@@ -1,0 +1,16 @@
+{
+  "path": "legacy/01_counter",
+  "status": "PASS",
+  "execution": "fresh temporary directory; standalone CLI simulation",
+  "simulation_log": "VCD info: dumpfile wave.vcd opened for output.\nLAB2_PASS counter4 checks=36\nC:\\Users\\UOS\\AppData\\Local\\Temp\\lab2-independent-7dca_m1i\\01_counter\\sim\\tb_counter4.sv:19: $finish called at 356000 (1ps)\n",
+  "input_sha256": {
+    "simulation.json": "e3211debf9bde4bf568ebe0dfaed612d8bdb781ae3e91941475d85c4ca850b55",
+    "src/counter4.v": "e37b9015f9732666002c7ec871d701eba1a9d6c0d1453e182893f5b12ae94880",
+    "src/input_frontend.v": "a866edb1f9b3477914c19a8c6bf237d885348348dd18582dca14e410d622a337",
+    "src/lab2_counter.v": "f4f0e5da3ce3c432fcc8fbcf7c814ea0d06040f29ae1106d3f979a316ed0fb10",
+    "sim/tb_counter4.sv": "439c4e2bf639d1e6c08c994c68aa3acc28944274b62e92226d824fd32f8f4ade",
+    "sim/tb_board.sv": "afe33225e09363384f21142a9c7c24548b390ae92eb18c21e0b5e90cd49255aa"
+  },
+  "workspace_sha256": "3a7edfc88a18740676c2161c169db45b234f26066952ed723bb6b12128e7770d",
+  "constraints_sha256": "c409037fe63f53243e0cf24aac389f3a2d3669f676ce7c1babe52059585af5a5"
+}
